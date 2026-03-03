@@ -123,7 +123,7 @@ const defaultData: AppData = {
   carouselImages: ['/carousel1.jpg', '/carousel2.jpg', '/carousel3.jpg'],
   colors: defaultColors,
   skills: [
-    { name: Figma', level: 95, color: '#F24E1E' },
+    { name: 'Figma', level: 95, color: '#F24E1E' },
     { name: 'Canva', level: 90, color: '#FF61F6' },
     { name: 'Sketch', level: 85, color: '#F7B500' },
     { name: 'Capcut', level: 88, color: '#FF3366' },
