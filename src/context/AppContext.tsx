@@ -266,8 +266,8 @@ const defaultData: AppData = {
     backgroundColor: '#FFE4D6',
   },
   notification: {
-    title: 'Welcome! 👋',
-    message: 'Thanks for "SURESH" App. Enjoy exploring!',
+    title: 'Hello! 👋',
+    message: 'Thanks for Visiting "SURESH" App. Enjoy exploring!',
     enabled: true,
   },
 };
