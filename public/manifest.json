@@ -1,7 +1,7 @@
 {
-  "name": "Gloria Portfolio",
-  "short_name": "Portfolio",
-  "description": "UI/UX Designer Portfolio - Showcasing creative digital experiences",
+  "name": "SURESH.app",
+  "short_name": "SURESH.app",
+  "description": "Creative Developer, Designer Portfolio - Showcasing creative digital experiences",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFE4D6",
@@ -50,7 +50,7 @@
       "type": "image/png"
     }
   ],
-  "categories": ["portfolio", "design", "business"],
+  "categories": ["portfolio", "design", "development"],
   "lang": "en",
   "dir": "ltr",
   "prefer_related_applications": false
