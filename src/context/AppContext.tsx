@@ -237,7 +237,6 @@ const defaultData: AppData = {
   education: [
     {
       degree: 'Bachelor of Information Technology',
-      major: 'Computer Forensic',
       school: 'University Tun Abdul Razak, MY',
       year: '2008 - 2011',
     },
