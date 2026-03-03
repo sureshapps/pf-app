@@ -112,10 +112,10 @@ const defaultColors: AppColors = {
 
 const defaultData: AppData = {
   profile: {
-    name: 'Gloria Russell',
-    title: 'Senior UI/UX Designer',
-    location: 'San Francisco, CA',
-    email: 'hello@gloria.design',
+    name: 'Suresh Kaleyannan',
+    title: 'Creative Developer',
+    location: 'Kuala Lumpur, MY',
+    email: 'hello@suresh.app',
     bio: 'Passionate UI/UX designer with over 5 years of experience creating intuitive and visually stunning digital experiences.',
     avatar: '/profile.jpg',
   },
@@ -123,10 +123,10 @@ const defaultData: AppData = {
   carouselImages: ['/carousel1.jpg', '/carousel2.jpg', '/carousel3.jpg'],
   colors: defaultColors,
   skills: [
-    { name: 'Figma', level: 95, color: '#F24E1E' },
-    { name: 'Adobe XD', level: 90, color: '#FF61F6' },
+    { name: Figma', level: 95, color: '#F24E1E' },
+    { name: 'Canva', level: 90, color: '#FF61F6' },
     { name: 'Sketch', level: 85, color: '#F7B500' },
-    { name: 'InVision', level: 88, color: '#FF3366' },
+    { name: 'Capcut', level: 88, color: '#FF3366' },
     { name: 'Photoshop', level: 82, color: '#31A8FF' },
     { name: 'Illustrator', level: 78, color: '#FF9A00' },
   ],
