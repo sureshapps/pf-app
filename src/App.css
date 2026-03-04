@@ -1154,7 +1154,7 @@ body {
 /* Dark Section */
 .dark-section {
   background: var(--dark);
-  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xl) var(--radius-xl);
   padding: 24px 20px 120px;
   margin-top: -10px;
   position: relative;
