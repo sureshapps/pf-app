@@ -1153,10 +1153,10 @@ body {
 
 /* Dark Section */
 .dark-section {
-  background: var(--dark);
+  background: rgba(26, 26, 46, 0.3);
   border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xl) var(--radius-xl);
   padding: 24px 20px 120px;
-  margin-top: -10px;
+  margin-top: -25px;
   position: relative;
 }
 
