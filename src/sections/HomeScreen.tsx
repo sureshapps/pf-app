@@ -9,16 +9,19 @@ const services = [
     icon: Palette,
     title: 'UI Design',
     description: 'Beautiful interfaces that captivate users',
+    image: 'https://sureshapp.netlify.app/whatido1.JPG',
   },
   {
     icon: Code,
     title: 'UX Research',
     description: 'User-centered design approach',
+    image: 'https://sureshapp.netlify.app/whatido2.JPG',
   },
   {
     icon: Smartphone,
     title: 'Mobile Apps',
     description: 'iOS & Android experiences',
+    image: 'https://sureshapp.netlify.app/whatido3.JPG',
   },
 ];
 
@@ -129,19 +132,53 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
           <div className="services-grid">
             {services.map((service, index) => {
               const Icon = service.icon;
-              const colors = [data.colors.primary, data.colors.secondary, data.colors.accent];
               return (
                 <motion.div 
                   key={index} 
-                  className="service-card"
-                  whileHover={{ y: -10 }}
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    position: 'relative',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    minHeight: '200px',
+                    cursor: 'pointer',
+                  }}
+                  whileHover={{ y: -10, scale: 1.02 }}
                   transition={{ type: 'spring', stiffness: 300 }}
                 >
-                  <div className="service-icon" style={{ background: colors[index] }}>
-                    <Icon size={24} />
+                  <div 
+                    style={{
+                      position: 'absolute',
+                      inset: 0,
+                      background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.3) 100%)',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      justifyContent: 'flex-end',
+                      padding: '20px',
+                      color: 'white',
+                    }}
+                  >
+                    <div 
+                      style={{
+                        background: 'rgba(255,255,255,0.2)',
+                        backdropFilter: 'blur(10px)',
+                        WebkitBackdropFilter: 'blur(10px)',
+                        width: '48px',
+                        height: '48px',
+                        borderRadius: '12px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        marginBottom: '12px',
+                      }}
+                    >
+                      <Icon size={24} color="white" />
+                    </div>
+                    <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontWeight: 600 }}>{service.title}</h4>
+                    <p style={{ margin: 0, fontSize: '0.9rem', opacity: 0.9, lineHeight: 1.4 }}>{service.description}</p>
                   </div>
-                  <h4>{service.title}</h4>
-                  <p>{service.description}</p>
                 </motion.div>
               );
             })}
