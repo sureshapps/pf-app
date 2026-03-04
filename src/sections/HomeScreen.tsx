@@ -145,7 +145,7 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
                     minHeight: '200px',
                     cursor: 'pointer',
                   }}
-                  whileHover={{ y: -10, scale: 1.00 }}
+                  whileHover={{ y: -10, scale: 1.01 }}
                   transition={{ type: 'spring', stiffness: 300 }}
                 >
                   <div 
