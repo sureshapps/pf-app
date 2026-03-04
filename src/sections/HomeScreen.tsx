@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Palette, Code, Smartphone, TrendingUp, Users, Award } from 'lucide-react';
+import { ArrowRight, Palette, Code, Smartphone, TrendingUp, Users, Award } from 'lucide-react';
 import LazyLoad from '../components/LazyLoad';
 import { useApp } from '../context/AppContext';
 
