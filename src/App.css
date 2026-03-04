@@ -31,11 +31,11 @@
 
 /* Dark Mode Variables - Same as root now */
 .dark-mode {
-  --light: #1a1a2e;
-  --lighter: #2D2D3A;
-  --white: #2D2D3A;
+  --light: #373938;
+  --lighter: #0E2E22;
+  --white: #0E2E22;
   --darker: #FFFFFF;
-  --dark: #1a1a2e;
+  --dark: #373938;
   --gray: #B8B8C8;
   --gray-light: #8B8B9A;
 }
@@ -68,7 +68,7 @@ body {
 /* ==================== APP CONTAINER ==================== */
 .app-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #1a1a2e 0%, #2D2D3A 50%, #1a1a2e 100%);
+  background: linear-gradient(135deg, #373938 0%, #0E2E22 50%, #373938 100%);
   position: relative;
   overflow-x: hidden;
   transition: background 0.3s ease;
@@ -76,7 +76,7 @@ body {
 
 /* Dark mode app container - same as light mode now */
 .dark-mode .app-container {
-  background: linear-gradient(135deg, #1a1a2e 0%, #2D2D3A 50%, #1a1a2e 100%);
+ background: linear-gradient(135deg, #373938 0%, #0E2E22 50%, #373938 100%);
 }
 
 /* Decorative background shapes */
