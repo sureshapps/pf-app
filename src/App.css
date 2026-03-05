@@ -79,7 +79,7 @@ body {
 
 /* Dark mode app container - same as light mode now */
 .dark-mode .app-container {
- background: linear-gradient(135deg, #373938 0%, #161716 50%, #373938 100%);
+ background: linear-gradient(135deg, #242424 0%, #141414 50%, #242424 100%);
 }
 
 /* Decorative background shapes */
