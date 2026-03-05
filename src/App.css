@@ -3641,9 +3641,9 @@ body {
   }
   
   .dark-mode-toggle {
-    top: 0px;
-    right: 0px;
-    width: 40px;
-    height: 40px;
+    top: 14px;
+    right: 14px;
+    width: 0px;
+    height: 0px;
   }
 }
