@@ -16,8 +16,8 @@
   --warning: #FBBF24;
   /* Light mode now uses same dark colors as dark mode */
   --light: #1a1a2e;
-  --lighter: #52D271;
-  --white: #52D271;
+  --lighter: #171a24;
+  --white: #171a24;
   --darker: #FFFFFF;
   --dark: #1a1a2e;
   --gray: #B8B8C8;
@@ -36,7 +36,7 @@
 .dark-mode {
   --light: #373938;
   --lighter: #0E2E22;
-  --white: #0E2E22;
+  --white: #171a24;
   --darker: #FFFFFF;
   --dark: #373938;
   --gray: #B8B8C8;
