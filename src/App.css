@@ -222,14 +222,14 @@ body {
   border-color: var(--primary);
 }
 
-.service-card {
+.services-card {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
   min-height: 200px;
 }
 
-.service-card-overlay {
+.services-card-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.9) 100%);
@@ -240,7 +240,7 @@ body {
   color: white;
 }
 
-.service-icon {
+.services-icon {
   background: rgba(255,255,255,0.2);
   backdrop-filter: blur(10px);
   width: 48px;
@@ -784,14 +784,14 @@ body {
 }
 
 
-.service-card h4 {
+.services-card h4 {
   font-size: 12px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 3px;
 }
 
-.service-card p {
+.services-card p {
   font-size: 9px;
   color: var(--text-tertiary);
 }
