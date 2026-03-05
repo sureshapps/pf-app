@@ -809,9 +809,8 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto 10px;
-  color: white;
+  color: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
-
 .service-card h4 {
   font-size: 12px;
   font-weight: 700;
