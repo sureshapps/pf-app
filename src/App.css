@@ -90,7 +90,7 @@ body {
   right: -200px;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(0, 23, 45, 1) 0%, rgba(0, 11, 24, 1) 70%);
+  background: radial-gradient(circle, rgba(0, 23, 45, 0.15) 0%, rgba(0, 11, 24, 0.25) 70%);
   border-radius: 50%;
   pointer-events: none;
   z-index: 0;
@@ -103,7 +103,7 @@ body {
   left: -300px;
   width: 800px;
   height: 800px;
-  background: radial-gradient(circle, rgba(78, 205, 196, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 23, 45, 0.15) 0%, rgba(0, 11, 24, 0.25) 70%);
   border-radius: 50%;
   pointer-events: none;
   z-index: 0;
