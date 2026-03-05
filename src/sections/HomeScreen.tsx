@@ -9,19 +9,19 @@ const services = [
     icon: Palette,
     title: 'UI Design',
     description: 'Beautiful interfaces that captivate users',
-    image: 'https://sureshapp.netlify.app/whatido1.JPG',
+    image: '/whatido1.JPG',
   },
   {
     icon: Code,
     title: 'UX Research',
     description: 'User-centered design approach',
-    image: 'https://sureshapp.netlify.app/whatido2.JPG',
+    image: '/whatido2.JPG',
   },
   {
     icon: Smartphone,
     title: 'Mobile Apps',
     description: 'iOS & Android experiences',
-    image: 'https://sureshapp.netlify.app/whatido3.JPG',
+    image: '/whatido3.JPG',
   },
 ];
 
