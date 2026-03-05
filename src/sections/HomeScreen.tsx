@@ -9,19 +9,19 @@ const services = [
     icon: Palette,
     title: 'UI Design',
     description: 'Beautiful interfaces that captivate users',
-    image: '/whatido1.JPG',
+    image: 'https://pub-b7063e985df64ddcba4ecd5e89b94954.r2.dev/whatido1.JPG',
   },
   {
     icon: Code,
     title: 'UX Research',
     description: 'User-centered design approach',
-    image: '/whatido2.JPG',
+    image: 'https://pub-b7063e985df64ddcba4ecd5e89b94954.r2.dev/whatido2.JPG',
   },
   {
     icon: Smartphone,
     title: 'Mobile Apps',
     description: 'iOS & Android experiences',
-    image: '/whatido3.JPG',
+    image: 'https://pub-b7063e985df64ddcba4ecd5e89b94954.r2.dev/whatido3.JPG',
   },
 ];
 
