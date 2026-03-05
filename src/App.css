@@ -71,7 +71,7 @@ body {
 /* ==================== APP CONTAINER ==================== */
 .app-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #373938 0%, #161716 50%, #373938 100%);
+  background: linear-gradient(135deg, #242424 0%, #141414 50%, #242424 100%);
   position: relative;
   overflow-x: hidden;
   transition: background 0.3s ease;
